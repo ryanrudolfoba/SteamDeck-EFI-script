@@ -117,7 +117,7 @@ The script is also smart enough so that when a BIOS / SteamOS update breaks the 
 Read this for your Common Questions and Answers! This will be regularly updated and some of the answers in here are contributions from the [WindowsOnDeck reddit community!](https://www.reddit.com/r/WindowsOnDeck/)
 
     
-### Q1. I reinstalled Windows and now it boots directly to Windows instead of rEFInd!
+### Q1. I reinstalled Windows and now it boots directly to Windows instead of SteamOS!
 
 1. Follow the steps for the Windows scheduled task install.
 
