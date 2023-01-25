@@ -5,9 +5,11 @@
 
 This repository containts the instructions and scripts that will mostly benefit Steam Deck users who have setup a dual boot - SteamOS and Windows but does not want to use a graphical boot manager like [Clover](https://github.com/ryanrudolfoba/SteamDeck-Clover-dualboot) or [rEFInd.](https://github.com/ryanrudolfoba/SteamDeck-rEFInd-dualboot)
 
-Once the script is active, the default behavior is that it will always boot to SteamOS.
+Once the script is active on both SteamOS and Windows, the default behavior is that it will always boot to SteamOS.
 
 If user wants to use Windows - power off the Steam Deck and while powered off, press VOLDOWN + POWER then select Windows.
+
+If the user did not activate the script on the Windows side, then the default behavior will be different - it will boot the last OS that was used.
 
 The script is also smart enough so that when a BIOS / SteamOS update breaks the EFI entries, just manually boot via steamcl.efi and it will automatically re-create the SteamOS EFI entries.
 
@@ -40,6 +42,8 @@ The script is also smart enough so that when a BIOS / SteamOS update breaks the 
 
 > **NOTE2**\
 > The installation is divided into 2 parts - 1 for SteamOS, and 1 for Windows.\
+> If you use the script on both SteamOS and Windows, then the default behavior it will always boot to SteamOS.\
+> The Windows script is optional - if you don't use the script on the Windows side then the Steam Deck will boot the last OS that was used.\
 > The recommended way is to do the steps on SteamOS first, and then do the steps for Windows.
 
 > **For the SteamOS side**\
