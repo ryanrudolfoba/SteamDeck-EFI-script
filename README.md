@@ -42,7 +42,7 @@ The script is also smart enough so that when a BIOS / SteamOS update breaks the 
 
 > **NOTE2**\
 > The installation is divided into 2 parts - 1 for SteamOS, and 1 for Windows.\
-> If you use the script on both SteamOS and Windows, then the default behavior it will always boot to SteamOS.\
+> If you use the script on both SteamOS and Windows, then the default behavior the Steam Deck will always boot to SteamOS.\
 > The Windows script is optional - if you don't use the script on the Windows side then the Steam Deck will boot the last OS that was used.\
 > The recommended way is to do the steps on SteamOS first, and then do the steps for Windows.
 
@@ -84,7 +84,10 @@ The script is also smart enough so that when a BIOS / SteamOS update breaks the 
      
 
 
-**Installation Steps for Windows**
+**Installation Steps for Windows (optional)**
+> The Windows script is optional - if you don't use the script on the Windows side then the Steam Deck will boot the last OS that was used.\
+> If you use the script on both SteamOS and Windows, then the default behavior the Steam Deck will always boot to SteamOS.
+
 1. Download the ZIP by pressing the GREEN CODE BUTTON, then select Download ZIP.
 ![image](https://user-images.githubusercontent.com/98122529/214430402-26449ef8-dfed-4c76-a405-f4d0107f94de.png)
 
