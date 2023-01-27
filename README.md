@@ -63,9 +63,9 @@ The script is also smart enough so that when a BIOS / SteamOS update breaks the 
    git clone https://github.com/ryanrudolfoba/SteamDeck-EFI-script
    
 3. Execute the script! \
-   cd ~/SteamDeck-EFI \
-   chmod +x install-EFI.sh \
-   ./install-EFI.sh
+   cd ~/SteamDeck-EFI-script \
+   chmod +x install-EFI-script.sh \
+   ./install-EFI-script.sh
    ![image](https://user-images.githubusercontent.com/98122529/214392697-2b378402-99c3-483c-8e15-9422e2df11ed.png)
 
 4. The script will check if sudo passwword is already set.\
